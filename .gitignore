@@ -1,0 +1,26 @@
+# Personal / sensitive documents (keep local only)
+ID Front.jpg
+ID Back.jpg
+enamanjasign.jpg
+witness_signature.jpg
+Business Registration.pdf
+MRA Tin.pdf
+PPDA.pdf
+Tax Clearance Certificate*.PDF
+Tax Clearance Certificate*.pdf
+
+# Filled forms contain personal data
+*Filled*.pdf
+bnf test docs/
+
+# Azure Functions local settings / secrets
+local.settings.json
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/

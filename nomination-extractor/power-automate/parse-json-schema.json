@@ -1,0 +1,272 @@
+{
+  "type": "object",
+  "properties": {
+    "valid": {
+      "type": "boolean"
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "form_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "member": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "fund_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "member_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "member_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "branch_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cost_centre": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "home_telephone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cell_telephone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "work_telephone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "email_address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "declaration_full_names": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date_of_birth": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date_of_birth_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "signature_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "signature_date_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "signature_attached_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "signature_attached": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "signature_image_found": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "nominees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "row": {
+            "type": "integer"
+          },
+          "full_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "relationship": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "identity_number": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "date_of_birth": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "date_of_birth_text": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "benefit_current_pct": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "benefit_revised_pct": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "payees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "row": {
+            "type": "integer"
+          },
+          "full_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "relationship": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "identity_number": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "benefit_pct": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "monthly_maintenance": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "totals": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "nominee_count": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "payee_count": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "benefit_current_pct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "benefit_revised_pct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "effective_column": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "required": [
+    "valid",
+    "errors"
+  ]
+}

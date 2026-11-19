@@ -1,0 +1,1821 @@
+{
+  "form_version": "BNF-6.06-F1.0",
+  "field_count": 121,
+  "fields": [
+    {
+      "name": "form_version",
+      "type": "text",
+      "format": "hidden, set automatically",
+      "section": "meta",
+      "row": "",
+      "description": "Form version identifier (BNF-6.06-F1.0)",
+      "page": 1,
+      "rect_pt": [
+        2,
+        2,
+        60,
+        12
+      ]
+    },
+    {
+      "name": "signature_attached",
+      "type": "text",
+      "format": "hidden, set automatically",
+      "section": "meta",
+      "row": "",
+      "description": "'yes' once a signature image has been attached",
+      "page": 1,
+      "rect_pt": [
+        62,
+        2,
+        120,
+        12
+      ]
+    },
+    {
+      "name": "signature_attached_at",
+      "type": "text",
+      "format": "hidden, set automatically",
+      "section": "meta",
+      "row": "",
+      "description": "When the signature was attached (yyyy-mm-ddTHH:MM:ss)",
+      "page": 1,
+      "rect_pt": [
+        122,
+        2,
+        180,
+        12
+      ]
+    },
+    {
+      "name": "fund_name",
+      "type": "text",
+      "format": "",
+      "section": "header",
+      "row": "",
+      "description": "Fund registration number and name, e.g. 69707 TELEKOM NETWORKS PENSION FUND",
+      "page": 1,
+      "rect_pt": [
+        110,
+        28,
+        486,
+        46
+      ]
+    },
+    {
+      "name": "member_name",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Member name",
+      "page": 1,
+      "rect_pt": [
+        129.9,
+        103.0,
+        564.3,
+        117.9
+      ]
+    },
+    {
+      "name": "member_number",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Member number",
+      "page": 1,
+      "rect_pt": [
+        129.9,
+        120.0,
+        295.0,
+        134.8
+      ]
+    },
+    {
+      "name": "member_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "member",
+      "row": "",
+      "description": "Member date of birth",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        120.0,
+        564.3,
+        134.8
+      ]
+    },
+    {
+      "name": "branch_code",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Branch code",
+      "page": 1,
+      "rect_pt": [
+        129.9,
+        137.0,
+        295.0,
+        151.9
+      ]
+    },
+    {
+      "name": "cost_centre",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Cost centre",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        137.0,
+        564.3,
+        151.9
+      ]
+    },
+    {
+      "name": "home_telephone",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Home telephone",
+      "page": 1,
+      "rect_pt": [
+        129.9,
+        154.0,
+        295.0,
+        168.9
+      ]
+    },
+    {
+      "name": "cell_telephone",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Cell telephone",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        154.0,
+        564.3,
+        168.9
+      ]
+    },
+    {
+      "name": "work_telephone",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Work telephone",
+      "page": 1,
+      "rect_pt": [
+        129.9,
+        171.0,
+        295.0,
+        186.0
+      ]
+    },
+    {
+      "name": "email_address",
+      "type": "text",
+      "format": "",
+      "section": "member",
+      "row": "",
+      "description": "Email address",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        171.0,
+        564.3,
+        186.0
+      ]
+    },
+    {
+      "name": "declaration_full_names",
+      "type": "text",
+      "format": "",
+      "section": "declaration",
+      "row": "",
+      "description": "Member's full names (declaration)",
+      "page": 1,
+      "rect_pt": [
+        95,
+        200.5,
+        346,
+        212
+      ]
+    },
+    {
+      "name": "member_signature",
+      "type": "signature",
+      "format": "image button (signature image; Adobe Reader button or signer page)",
+      "section": "declaration",
+      "row": "",
+      "description": "Member's signature: click to attach an image of your signature",
+      "page": 1,
+      "rect_pt": [
+        113.3,
+        250,
+        269.2,
+        282.5
+      ]
+    },
+    {
+      "name": "signature_date",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "declaration",
+      "row": "",
+      "description": "Date signed",
+      "page": 1,
+      "rect_pt": [
+        325.9,
+        268,
+        453.4,
+        282.5
+      ]
+    },
+    {
+      "name": "nominee_01_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 1,
+      "description": "Nominee 1: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        346.7,
+        252.4,
+        362.9
+      ]
+    },
+    {
+      "name": "nominee_01_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 1,
+      "description": "Nominee 1: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        346.7,
+        310.1,
+        362.9
+      ]
+    },
+    {
+      "name": "nominee_01_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 1,
+      "description": "Nominee 1: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        346.7,
+        394.2,
+        362.9
+      ]
+    },
+    {
+      "name": "nominee_01_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 1,
+      "description": "Nominee 1: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        346.7,
+        479.2,
+        362.9
+      ]
+    },
+    {
+      "name": "nominee_01_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 1,
+      "description": "Nominee 1: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        346.7,
+        521.8,
+        362.9
+      ]
+    },
+    {
+      "name": "nominee_01_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 1,
+      "description": "Nominee 1: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        346.7,
+        564.3,
+        362.9
+      ]
+    },
+    {
+      "name": "nominee_02_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 2,
+      "description": "Nominee 2: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        365.0,
+        252.4,
+        381.0
+      ]
+    },
+    {
+      "name": "nominee_02_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 2,
+      "description": "Nominee 2: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        365.0,
+        310.1,
+        381.0
+      ]
+    },
+    {
+      "name": "nominee_02_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 2,
+      "description": "Nominee 2: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        365.0,
+        394.2,
+        381.0
+      ]
+    },
+    {
+      "name": "nominee_02_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 2,
+      "description": "Nominee 2: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        365.0,
+        479.2,
+        381.0
+      ]
+    },
+    {
+      "name": "nominee_02_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 2,
+      "description": "Nominee 2: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        365.0,
+        521.8,
+        381.0
+      ]
+    },
+    {
+      "name": "nominee_02_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 2,
+      "description": "Nominee 2: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        365.0,
+        564.3,
+        381.0
+      ]
+    },
+    {
+      "name": "nominee_03_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 3,
+      "description": "Nominee 3: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        383.1,
+        252.4,
+        399.1
+      ]
+    },
+    {
+      "name": "nominee_03_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 3,
+      "description": "Nominee 3: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        383.1,
+        310.1,
+        399.1
+      ]
+    },
+    {
+      "name": "nominee_03_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 3,
+      "description": "Nominee 3: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        383.1,
+        394.2,
+        399.1
+      ]
+    },
+    {
+      "name": "nominee_03_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 3,
+      "description": "Nominee 3: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        383.1,
+        479.2,
+        399.1
+      ]
+    },
+    {
+      "name": "nominee_03_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 3,
+      "description": "Nominee 3: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        383.1,
+        521.8,
+        399.1
+      ]
+    },
+    {
+      "name": "nominee_03_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 3,
+      "description": "Nominee 3: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        383.1,
+        564.3,
+        399.1
+      ]
+    },
+    {
+      "name": "nominee_04_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 4,
+      "description": "Nominee 4: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        401.2,
+        252.4,
+        417.2
+      ]
+    },
+    {
+      "name": "nominee_04_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 4,
+      "description": "Nominee 4: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        401.2,
+        310.1,
+        417.2
+      ]
+    },
+    {
+      "name": "nominee_04_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 4,
+      "description": "Nominee 4: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        401.2,
+        394.2,
+        417.2
+      ]
+    },
+    {
+      "name": "nominee_04_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 4,
+      "description": "Nominee 4: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        401.2,
+        479.2,
+        417.2
+      ]
+    },
+    {
+      "name": "nominee_04_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 4,
+      "description": "Nominee 4: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        401.2,
+        521.8,
+        417.2
+      ]
+    },
+    {
+      "name": "nominee_04_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 4,
+      "description": "Nominee 4: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        401.2,
+        564.3,
+        417.2
+      ]
+    },
+    {
+      "name": "nominee_05_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 5,
+      "description": "Nominee 5: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        419.3,
+        252.4,
+        435.3
+      ]
+    },
+    {
+      "name": "nominee_05_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 5,
+      "description": "Nominee 5: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        419.3,
+        310.1,
+        435.3
+      ]
+    },
+    {
+      "name": "nominee_05_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 5,
+      "description": "Nominee 5: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        419.3,
+        394.2,
+        435.3
+      ]
+    },
+    {
+      "name": "nominee_05_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 5,
+      "description": "Nominee 5: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        419.3,
+        479.2,
+        435.3
+      ]
+    },
+    {
+      "name": "nominee_05_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 5,
+      "description": "Nominee 5: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        419.3,
+        521.8,
+        435.3
+      ]
+    },
+    {
+      "name": "nominee_05_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 5,
+      "description": "Nominee 5: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        419.3,
+        564.3,
+        435.3
+      ]
+    },
+    {
+      "name": "nominee_06_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 6,
+      "description": "Nominee 6: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        437.4,
+        252.4,
+        453.5
+      ]
+    },
+    {
+      "name": "nominee_06_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 6,
+      "description": "Nominee 6: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        437.4,
+        310.1,
+        453.5
+      ]
+    },
+    {
+      "name": "nominee_06_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 6,
+      "description": "Nominee 6: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        437.4,
+        394.2,
+        453.5
+      ]
+    },
+    {
+      "name": "nominee_06_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 6,
+      "description": "Nominee 6: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        437.4,
+        479.2,
+        453.5
+      ]
+    },
+    {
+      "name": "nominee_06_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 6,
+      "description": "Nominee 6: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        437.4,
+        521.8,
+        453.5
+      ]
+    },
+    {
+      "name": "nominee_06_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 6,
+      "description": "Nominee 6: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        437.4,
+        564.3,
+        453.5
+      ]
+    },
+    {
+      "name": "nominee_07_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 7,
+      "description": "Nominee 7: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        455.6,
+        252.4,
+        471.7
+      ]
+    },
+    {
+      "name": "nominee_07_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 7,
+      "description": "Nominee 7: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        455.6,
+        310.1,
+        471.7
+      ]
+    },
+    {
+      "name": "nominee_07_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 7,
+      "description": "Nominee 7: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        455.6,
+        394.2,
+        471.7
+      ]
+    },
+    {
+      "name": "nominee_07_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 7,
+      "description": "Nominee 7: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        455.6,
+        479.2,
+        471.7
+      ]
+    },
+    {
+      "name": "nominee_07_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 7,
+      "description": "Nominee 7: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        455.6,
+        521.8,
+        471.7
+      ]
+    },
+    {
+      "name": "nominee_07_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 7,
+      "description": "Nominee 7: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        455.6,
+        564.3,
+        471.7
+      ]
+    },
+    {
+      "name": "nominee_08_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 8,
+      "description": "Nominee 8: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        473.8,
+        252.4,
+        489.8
+      ]
+    },
+    {
+      "name": "nominee_08_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 8,
+      "description": "Nominee 8: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        473.8,
+        310.1,
+        489.8
+      ]
+    },
+    {
+      "name": "nominee_08_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 8,
+      "description": "Nominee 8: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        473.8,
+        394.2,
+        489.8
+      ]
+    },
+    {
+      "name": "nominee_08_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 8,
+      "description": "Nominee 8: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        473.8,
+        479.2,
+        489.8
+      ]
+    },
+    {
+      "name": "nominee_08_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 8,
+      "description": "Nominee 8: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        473.8,
+        521.8,
+        489.8
+      ]
+    },
+    {
+      "name": "nominee_08_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 8,
+      "description": "Nominee 8: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        473.8,
+        564.3,
+        489.8
+      ]
+    },
+    {
+      "name": "nominee_09_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 9,
+      "description": "Nominee 9: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        491.9,
+        252.4,
+        507.9
+      ]
+    },
+    {
+      "name": "nominee_09_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 9,
+      "description": "Nominee 9: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        491.9,
+        310.1,
+        507.9
+      ]
+    },
+    {
+      "name": "nominee_09_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 9,
+      "description": "Nominee 9: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        491.9,
+        394.2,
+        507.9
+      ]
+    },
+    {
+      "name": "nominee_09_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 9,
+      "description": "Nominee 9: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        491.9,
+        479.2,
+        507.9
+      ]
+    },
+    {
+      "name": "nominee_09_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 9,
+      "description": "Nominee 9: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        491.9,
+        521.8,
+        507.9
+      ]
+    },
+    {
+      "name": "nominee_09_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 9,
+      "description": "Nominee 9: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        491.9,
+        564.3,
+        507.9
+      ]
+    },
+    {
+      "name": "nominee_10_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 10,
+      "description": "Nominee 10: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        510.0,
+        252.4,
+        526.0
+      ]
+    },
+    {
+      "name": "nominee_10_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 10,
+      "description": "Nominee 10: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        510.0,
+        310.1,
+        526.0
+      ]
+    },
+    {
+      "name": "nominee_10_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 10,
+      "description": "Nominee 10: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        510.0,
+        394.2,
+        526.0
+      ]
+    },
+    {
+      "name": "nominee_10_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 10,
+      "description": "Nominee 10: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        510.0,
+        479.2,
+        526.0
+      ]
+    },
+    {
+      "name": "nominee_10_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 10,
+      "description": "Nominee 10: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        510.0,
+        521.8,
+        526.0
+      ]
+    },
+    {
+      "name": "nominee_10_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 10,
+      "description": "Nominee 10: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        510.0,
+        564.3,
+        526.0
+      ]
+    },
+    {
+      "name": "nominee_11_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 11,
+      "description": "Nominee 11: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        528.1,
+        252.4,
+        544.1
+      ]
+    },
+    {
+      "name": "nominee_11_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 11,
+      "description": "Nominee 11: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        528.1,
+        310.1,
+        544.1
+      ]
+    },
+    {
+      "name": "nominee_11_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 11,
+      "description": "Nominee 11: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        528.1,
+        394.2,
+        544.1
+      ]
+    },
+    {
+      "name": "nominee_11_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 11,
+      "description": "Nominee 11: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        528.1,
+        479.2,
+        544.1
+      ]
+    },
+    {
+      "name": "nominee_11_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 11,
+      "description": "Nominee 11: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        528.1,
+        521.8,
+        544.1
+      ]
+    },
+    {
+      "name": "nominee_11_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 11,
+      "description": "Nominee 11: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        528.1,
+        564.3,
+        544.1
+      ]
+    },
+    {
+      "name": "nominee_12_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 12,
+      "description": "Nominee 12: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        546.2,
+        252.4,
+        562.3
+      ]
+    },
+    {
+      "name": "nominee_12_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 12,
+      "description": "Nominee 12: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        546.2,
+        310.1,
+        562.3
+      ]
+    },
+    {
+      "name": "nominee_12_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 12,
+      "description": "Nominee 12: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        546.2,
+        394.2,
+        562.3
+      ]
+    },
+    {
+      "name": "nominee_12_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 12,
+      "description": "Nominee 12: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        546.2,
+        479.2,
+        562.3
+      ]
+    },
+    {
+      "name": "nominee_12_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 12,
+      "description": "Nominee 12: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        546.2,
+        521.8,
+        562.3
+      ]
+    },
+    {
+      "name": "nominee_12_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 12,
+      "description": "Nominee 12: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        546.2,
+        564.3,
+        562.3
+      ]
+    },
+    {
+      "name": "nominee_13_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 13,
+      "description": "Nominee 13: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        564.4,
+        252.4,
+        580.4
+      ]
+    },
+    {
+      "name": "nominee_13_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 13,
+      "description": "Nominee 13: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        564.4,
+        310.1,
+        580.4
+      ]
+    },
+    {
+      "name": "nominee_13_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 13,
+      "description": "Nominee 13: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        564.4,
+        394.2,
+        580.4
+      ]
+    },
+    {
+      "name": "nominee_13_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 13,
+      "description": "Nominee 13: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        564.4,
+        479.2,
+        580.4
+      ]
+    },
+    {
+      "name": "nominee_13_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 13,
+      "description": "Nominee 13: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        564.4,
+        521.8,
+        580.4
+      ]
+    },
+    {
+      "name": "nominee_13_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 13,
+      "description": "Nominee 13: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        564.4,
+        564.3,
+        580.4
+      ]
+    },
+    {
+      "name": "nominee_14_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 14,
+      "description": "Nominee 14: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        582.5,
+        252.4,
+        598.6
+      ]
+    },
+    {
+      "name": "nominee_14_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 14,
+      "description": "Nominee 14: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        582.5,
+        310.1,
+        598.6
+      ]
+    },
+    {
+      "name": "nominee_14_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 14,
+      "description": "Nominee 14: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        582.5,
+        394.2,
+        598.6
+      ]
+    },
+    {
+      "name": "nominee_14_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 14,
+      "description": "Nominee 14: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        582.5,
+        479.2,
+        598.6
+      ]
+    },
+    {
+      "name": "nominee_14_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 14,
+      "description": "Nominee 14: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        582.5,
+        521.8,
+        598.6
+      ]
+    },
+    {
+      "name": "nominee_14_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 14,
+      "description": "Nominee 14: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        582.5,
+        564.3,
+        598.6
+      ]
+    },
+    {
+      "name": "nominee_15_full_name",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 15,
+      "description": "Nominee 15: full name of dependant / nominee",
+      "page": 1,
+      "rect_pt": [
+        59.5,
+        600.7,
+        252.4,
+        616.7
+      ]
+    },
+    {
+      "name": "nominee_15_date_of_birth",
+      "type": "text",
+      "format": "dd/mm/yyyy",
+      "section": "nominees",
+      "row": 15,
+      "description": "Nominee 15: date of birth",
+      "page": 1,
+      "rect_pt": [
+        256.5,
+        600.7,
+        310.1,
+        616.7
+      ]
+    },
+    {
+      "name": "nominee_15_relationship",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 15,
+      "description": "Nominee 15: relationship",
+      "page": 1,
+      "rect_pt": [
+        314.3,
+        600.7,
+        394.2,
+        616.7
+      ]
+    },
+    {
+      "name": "nominee_15_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "nominees",
+      "row": 15,
+      "description": "Nominee 15: identity number",
+      "page": 1,
+      "rect_pt": [
+        399.3,
+        600.7,
+        479.2,
+        616.7
+      ]
+    },
+    {
+      "name": "nominee_15_benefit_current_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 15,
+      "description": "Nominee 15: % benefit (current)",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        600.7,
+        521.8,
+        616.7
+      ]
+    },
+    {
+      "name": "nominee_15_benefit_revised_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "nominees",
+      "row": 15,
+      "description": "Nominee 15: % benefit (revised)",
+      "page": 1,
+      "rect_pt": [
+        526.9,
+        600.7,
+        564.3,
+        616.7
+      ]
+    },
+    {
+      "name": "payee_01_full_name",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 1,
+      "description": "Court order payee 1: full name",
+      "page": 1,
+      "rect_pt": [
+        30.8,
+        735.2,
+        266.7,
+        750.0
+      ]
+    },
+    {
+      "name": "payee_01_relationship",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 1,
+      "description": "Court order payee 1: relationship",
+      "page": 1,
+      "rect_pt": [
+        271.8,
+        735.2,
+        351.6,
+        750.0
+      ]
+    },
+    {
+      "name": "payee_01_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 1,
+      "description": "Court order payee 1: identity number",
+      "page": 1,
+      "rect_pt": [
+        356.7,
+        735.2,
+        422.5,
+        750.0
+      ]
+    },
+    {
+      "name": "payee_01_benefit_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "court_orders",
+      "row": 1,
+      "description": "Court order payee 1: percentage of benefit",
+      "page": 1,
+      "rect_pt": [
+        427.7,
+        735.2,
+        479.2,
+        750.0
+      ]
+    },
+    {
+      "name": "payee_01_monthly_maintenance",
+      "type": "text",
+      "format": "number, 2 decimals",
+      "section": "court_orders",
+      "row": 1,
+      "description": "Court order payee 1: monthly maintenance amount",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        735.2,
+        564.3,
+        750.0
+      ]
+    },
+    {
+      "name": "payee_02_full_name",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 2,
+      "description": "Court order payee 2: full name",
+      "page": 1,
+      "rect_pt": [
+        30.8,
+        752.1,
+        266.7,
+        767.0
+      ]
+    },
+    {
+      "name": "payee_02_relationship",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 2,
+      "description": "Court order payee 2: relationship",
+      "page": 1,
+      "rect_pt": [
+        271.8,
+        752.1,
+        351.6,
+        767.0
+      ]
+    },
+    {
+      "name": "payee_02_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 2,
+      "description": "Court order payee 2: identity number",
+      "page": 1,
+      "rect_pt": [
+        356.7,
+        752.1,
+        422.5,
+        767.0
+      ]
+    },
+    {
+      "name": "payee_02_benefit_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "court_orders",
+      "row": 2,
+      "description": "Court order payee 2: percentage of benefit",
+      "page": 1,
+      "rect_pt": [
+        427.7,
+        752.1,
+        479.2,
+        767.0
+      ]
+    },
+    {
+      "name": "payee_02_monthly_maintenance",
+      "type": "text",
+      "format": "number, 2 decimals",
+      "section": "court_orders",
+      "row": 2,
+      "description": "Court order payee 2: monthly maintenance amount",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        752.1,
+        564.3,
+        767.0
+      ]
+    },
+    {
+      "name": "payee_03_full_name",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 3,
+      "description": "Court order payee 3: full name",
+      "page": 1,
+      "rect_pt": [
+        30.8,
+        769.1,
+        266.7,
+        784.0
+      ]
+    },
+    {
+      "name": "payee_03_relationship",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 3,
+      "description": "Court order payee 3: relationship",
+      "page": 1,
+      "rect_pt": [
+        271.8,
+        769.1,
+        351.6,
+        784.0
+      ]
+    },
+    {
+      "name": "payee_03_identity_number",
+      "type": "text",
+      "format": "",
+      "section": "court_orders",
+      "row": 3,
+      "description": "Court order payee 3: identity number",
+      "page": 1,
+      "rect_pt": [
+        356.7,
+        769.1,
+        422.5,
+        784.0
+      ]
+    },
+    {
+      "name": "payee_03_benefit_pct",
+      "type": "text",
+      "format": "number 0-100",
+      "section": "court_orders",
+      "row": 3,
+      "description": "Court order payee 3: percentage of benefit",
+      "page": 1,
+      "rect_pt": [
+        427.7,
+        769.1,
+        479.2,
+        784.0
+      ]
+    },
+    {
+      "name": "payee_03_monthly_maintenance",
+      "type": "text",
+      "format": "number, 2 decimals",
+      "section": "court_orders",
+      "row": 3,
+      "description": "Court order payee 3: monthly maintenance amount",
+      "page": 1,
+      "rect_pt": [
+        484.3,
+        769.1,
+        564.3,
+        784.0
+      ]
+    }
+  ]
+}

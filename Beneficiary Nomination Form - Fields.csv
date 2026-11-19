@@ -1,0 +1,122 @@
+name,type,format,section,row,description
+form_version,text,"hidden, set automatically",meta,,Form version identifier (BNF-6.06-F1.0)
+signature_attached,text,"hidden, set automatically",meta,,'yes' once a signature image has been attached
+signature_attached_at,text,"hidden, set automatically",meta,,When the signature was attached (yyyy-mm-ddTHH:MM:ss)
+fund_name,text,,header,,"Fund registration number and name, e.g. 69707 TELEKOM NETWORKS PENSION FUND"
+member_name,text,,member,,Member name
+member_number,text,,member,,Member number
+member_date_of_birth,text,dd/mm/yyyy,member,,Member date of birth
+branch_code,text,,member,,Branch code
+cost_centre,text,,member,,Cost centre
+home_telephone,text,,member,,Home telephone
+cell_telephone,text,,member,,Cell telephone
+work_telephone,text,,member,,Work telephone
+email_address,text,,member,,Email address
+declaration_full_names,text,,declaration,,Member's full names (declaration)
+member_signature,signature,image button (signature image; Adobe Reader button or signer page),declaration,,Member's signature: click to attach an image of your signature
+signature_date,text,dd/mm/yyyy,declaration,,Date signed
+nominee_01_full_name,text,,nominees,1,Nominee 1: full name of dependant / nominee
+nominee_01_date_of_birth,text,dd/mm/yyyy,nominees,1,Nominee 1: date of birth
+nominee_01_relationship,text,,nominees,1,Nominee 1: relationship
+nominee_01_identity_number,text,,nominees,1,Nominee 1: identity number
+nominee_01_benefit_current_pct,text,number 0-100,nominees,1,Nominee 1: % benefit (current)
+nominee_01_benefit_revised_pct,text,number 0-100,nominees,1,Nominee 1: % benefit (revised)
+nominee_02_full_name,text,,nominees,2,Nominee 2: full name of dependant / nominee
+nominee_02_date_of_birth,text,dd/mm/yyyy,nominees,2,Nominee 2: date of birth
+nominee_02_relationship,text,,nominees,2,Nominee 2: relationship
+nominee_02_identity_number,text,,nominees,2,Nominee 2: identity number
+nominee_02_benefit_current_pct,text,number 0-100,nominees,2,Nominee 2: % benefit (current)
+nominee_02_benefit_revised_pct,text,number 0-100,nominees,2,Nominee 2: % benefit (revised)
+nominee_03_full_name,text,,nominees,3,Nominee 3: full name of dependant / nominee
+nominee_03_date_of_birth,text,dd/mm/yyyy,nominees,3,Nominee 3: date of birth
+nominee_03_relationship,text,,nominees,3,Nominee 3: relationship
+nominee_03_identity_number,text,,nominees,3,Nominee 3: identity number
+nominee_03_benefit_current_pct,text,number 0-100,nominees,3,Nominee 3: % benefit (current)
+nominee_03_benefit_revised_pct,text,number 0-100,nominees,3,Nominee 3: % benefit (revised)
+nominee_04_full_name,text,,nominees,4,Nominee 4: full name of dependant / nominee
+nominee_04_date_of_birth,text,dd/mm/yyyy,nominees,4,Nominee 4: date of birth
+nominee_04_relationship,text,,nominees,4,Nominee 4: relationship
+nominee_04_identity_number,text,,nominees,4,Nominee 4: identity number
+nominee_04_benefit_current_pct,text,number 0-100,nominees,4,Nominee 4: % benefit (current)
+nominee_04_benefit_revised_pct,text,number 0-100,nominees,4,Nominee 4: % benefit (revised)
+nominee_05_full_name,text,,nominees,5,Nominee 5: full name of dependant / nominee
+nominee_05_date_of_birth,text,dd/mm/yyyy,nominees,5,Nominee 5: date of birth
+nominee_05_relationship,text,,nominees,5,Nominee 5: relationship
+nominee_05_identity_number,text,,nominees,5,Nominee 5: identity number
+nominee_05_benefit_current_pct,text,number 0-100,nominees,5,Nominee 5: % benefit (current)
+nominee_05_benefit_revised_pct,text,number 0-100,nominees,5,Nominee 5: % benefit (revised)
+nominee_06_full_name,text,,nominees,6,Nominee 6: full name of dependant / nominee
+nominee_06_date_of_birth,text,dd/mm/yyyy,nominees,6,Nominee 6: date of birth
+nominee_06_relationship,text,,nominees,6,Nominee 6: relationship
+nominee_06_identity_number,text,,nominees,6,Nominee 6: identity number
+nominee_06_benefit_current_pct,text,number 0-100,nominees,6,Nominee 6: % benefit (current)
+nominee_06_benefit_revised_pct,text,number 0-100,nominees,6,Nominee 6: % benefit (revised)
+nominee_07_full_name,text,,nominees,7,Nominee 7: full name of dependant / nominee
+nominee_07_date_of_birth,text,dd/mm/yyyy,nominees,7,Nominee 7: date of birth
+nominee_07_relationship,text,,nominees,7,Nominee 7: relationship
+nominee_07_identity_number,text,,nominees,7,Nominee 7: identity number
+nominee_07_benefit_current_pct,text,number 0-100,nominees,7,Nominee 7: % benefit (current)
+nominee_07_benefit_revised_pct,text,number 0-100,nominees,7,Nominee 7: % benefit (revised)
+nominee_08_full_name,text,,nominees,8,Nominee 8: full name of dependant / nominee
+nominee_08_date_of_birth,text,dd/mm/yyyy,nominees,8,Nominee 8: date of birth
+nominee_08_relationship,text,,nominees,8,Nominee 8: relationship
+nominee_08_identity_number,text,,nominees,8,Nominee 8: identity number
+nominee_08_benefit_current_pct,text,number 0-100,nominees,8,Nominee 8: % benefit (current)
+nominee_08_benefit_revised_pct,text,number 0-100,nominees,8,Nominee 8: % benefit (revised)
+nominee_09_full_name,text,,nominees,9,Nominee 9: full name of dependant / nominee
+nominee_09_date_of_birth,text,dd/mm/yyyy,nominees,9,Nominee 9: date of birth
+nominee_09_relationship,text,,nominees,9,Nominee 9: relationship
+nominee_09_identity_number,text,,nominees,9,Nominee 9: identity number
+nominee_09_benefit_current_pct,text,number 0-100,nominees,9,Nominee 9: % benefit (current)
+nominee_09_benefit_revised_pct,text,number 0-100,nominees,9,Nominee 9: % benefit (revised)
+nominee_10_full_name,text,,nominees,10,Nominee 10: full name of dependant / nominee
+nominee_10_date_of_birth,text,dd/mm/yyyy,nominees,10,Nominee 10: date of birth
+nominee_10_relationship,text,,nominees,10,Nominee 10: relationship
+nominee_10_identity_number,text,,nominees,10,Nominee 10: identity number
+nominee_10_benefit_current_pct,text,number 0-100,nominees,10,Nominee 10: % benefit (current)
+nominee_10_benefit_revised_pct,text,number 0-100,nominees,10,Nominee 10: % benefit (revised)
+nominee_11_full_name,text,,nominees,11,Nominee 11: full name of dependant / nominee
+nominee_11_date_of_birth,text,dd/mm/yyyy,nominees,11,Nominee 11: date of birth
+nominee_11_relationship,text,,nominees,11,Nominee 11: relationship
+nominee_11_identity_number,text,,nominees,11,Nominee 11: identity number
+nominee_11_benefit_current_pct,text,number 0-100,nominees,11,Nominee 11: % benefit (current)
+nominee_11_benefit_revised_pct,text,number 0-100,nominees,11,Nominee 11: % benefit (revised)
+nominee_12_full_name,text,,nominees,12,Nominee 12: full name of dependant / nominee
+nominee_12_date_of_birth,text,dd/mm/yyyy,nominees,12,Nominee 12: date of birth
+nominee_12_relationship,text,,nominees,12,Nominee 12: relationship
+nominee_12_identity_number,text,,nominees,12,Nominee 12: identity number
+nominee_12_benefit_current_pct,text,number 0-100,nominees,12,Nominee 12: % benefit (current)
+nominee_12_benefit_revised_pct,text,number 0-100,nominees,12,Nominee 12: % benefit (revised)
+nominee_13_full_name,text,,nominees,13,Nominee 13: full name of dependant / nominee
+nominee_13_date_of_birth,text,dd/mm/yyyy,nominees,13,Nominee 13: date of birth
+nominee_13_relationship,text,,nominees,13,Nominee 13: relationship
+nominee_13_identity_number,text,,nominees,13,Nominee 13: identity number
+nominee_13_benefit_current_pct,text,number 0-100,nominees,13,Nominee 13: % benefit (current)
+nominee_13_benefit_revised_pct,text,number 0-100,nominees,13,Nominee 13: % benefit (revised)
+nominee_14_full_name,text,,nominees,14,Nominee 14: full name of dependant / nominee
+nominee_14_date_of_birth,text,dd/mm/yyyy,nominees,14,Nominee 14: date of birth
+nominee_14_relationship,text,,nominees,14,Nominee 14: relationship
+nominee_14_identity_number,text,,nominees,14,Nominee 14: identity number
+nominee_14_benefit_current_pct,text,number 0-100,nominees,14,Nominee 14: % benefit (current)
+nominee_14_benefit_revised_pct,text,number 0-100,nominees,14,Nominee 14: % benefit (revised)
+nominee_15_full_name,text,,nominees,15,Nominee 15: full name of dependant / nominee
+nominee_15_date_of_birth,text,dd/mm/yyyy,nominees,15,Nominee 15: date of birth
+nominee_15_relationship,text,,nominees,15,Nominee 15: relationship
+nominee_15_identity_number,text,,nominees,15,Nominee 15: identity number
+nominee_15_benefit_current_pct,text,number 0-100,nominees,15,Nominee 15: % benefit (current)
+nominee_15_benefit_revised_pct,text,number 0-100,nominees,15,Nominee 15: % benefit (revised)
+payee_01_full_name,text,,court_orders,1,Court order payee 1: full name
+payee_01_relationship,text,,court_orders,1,Court order payee 1: relationship
+payee_01_identity_number,text,,court_orders,1,Court order payee 1: identity number
+payee_01_benefit_pct,text,number 0-100,court_orders,1,Court order payee 1: percentage of benefit
+payee_01_monthly_maintenance,text,"number, 2 decimals",court_orders,1,Court order payee 1: monthly maintenance amount
+payee_02_full_name,text,,court_orders,2,Court order payee 2: full name
+payee_02_relationship,text,,court_orders,2,Court order payee 2: relationship
+payee_02_identity_number,text,,court_orders,2,Court order payee 2: identity number
+payee_02_benefit_pct,text,number 0-100,court_orders,2,Court order payee 2: percentage of benefit
+payee_02_monthly_maintenance,text,"number, 2 decimals",court_orders,2,Court order payee 2: monthly maintenance amount
+payee_03_full_name,text,,court_orders,3,Court order payee 3: full name
+payee_03_relationship,text,,court_orders,3,Court order payee 3: relationship
+payee_03_identity_number,text,,court_orders,3,Court order payee 3: identity number
+payee_03_benefit_pct,text,number 0-100,court_orders,3,Court order payee 3: percentage of benefit
+payee_03_monthly_maintenance,text,"number, 2 decimals",court_orders,3,Court order payee 3: monthly maintenance amount
